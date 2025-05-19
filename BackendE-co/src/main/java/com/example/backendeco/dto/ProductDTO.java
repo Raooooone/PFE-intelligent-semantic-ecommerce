@@ -10,6 +10,7 @@ public class ProductDTO {
     private Integer stock;
     private String description;
     private String externalId;
+    private String image;
 
     public ProductDTO() {}
 
@@ -37,4 +38,11 @@ public class ProductDTO {
     public void setDescription(String description) { this.description = description; }
     public String getExternalId() { return externalId; }
     public void setExternalId(String externalId) { this.externalId = externalId; }
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
 }

@@ -98,4 +98,8 @@ public class OrderController {
         dto.setItems(items);
         return dto;
     }
+    public List<Order> getOrdersByEmail(@RequestParam String email) {
+        System.out.println("Controller: Filtrage des commandes pour l'email: " + email);
+        return orderService.getOrdersByEmail(email);
+    }
 }

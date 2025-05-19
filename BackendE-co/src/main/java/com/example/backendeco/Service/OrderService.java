@@ -101,4 +101,8 @@ public class OrderService {
         }
         orderRepository.deleteById(id);
     }
+    public List<Order> getOrdersByEmail(String email) {
+        System.out.println("Service: Récupération des commandes pour l'email: " + email);
+        return orderRepository.findByEmail(email);
+    }
 }
