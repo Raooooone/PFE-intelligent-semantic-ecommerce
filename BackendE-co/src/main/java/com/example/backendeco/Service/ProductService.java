@@ -33,7 +33,7 @@ public class ProductService {
     private final HttpClient httpClient;
     private final ObjectMapper objectMapper;
 
-    @Value("${recommendation.api.url:https://66d7-34-150-202-174.ngrok-free.app}")
+    @Value("${recommendation.api.url:https://ce6b-34-10-59-211.ngrok-free.app}")
     private String recommendationApiUrl;
 
     public ProductService(ProductRepository productRepository, CategoryRepository categoryRepository) {

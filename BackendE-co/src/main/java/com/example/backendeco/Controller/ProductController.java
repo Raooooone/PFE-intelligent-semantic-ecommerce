@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = {"http://localhost:4200", "https://66d7-34-150-202-174.ngrok-free.app"}, allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:4200", "https://ce6b-34-10-59-211.ngrok-free.app"}, allowCredentials = "true")
 public class ProductController {
 
     private static final Logger logger = LoggerFactory.getLogger(ProductController.class);

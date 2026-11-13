@@ -14,7 +14,7 @@ public class SearchService {
     }
 
     public String searchProducts(String query) {
-        String pythonApiUrl = "https://66d7-34-150-202-174.ngrok-free.app/search";
+        String pythonApiUrl = "https://ce6b-34-10-59-211.ngrok-free.app/search";
 
         // Création du corps JSON
         SearchRequest requestBody = new SearchRequest(query, 5, 0.5);
